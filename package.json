@@ -26,6 +26,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "main": "./src/index.tsx",
   "browserslist": {
     "production": [
       ">0.2%",
