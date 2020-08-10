@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as components from './components'
+// import * as components from './components'
+export * from './components'
 
 // import * as serviceWorker from './serviceWorker';
 //
@@ -17,4 +18,4 @@ import * as components from './components'
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
-export default {App, ...components}
+// export default {App, ...components}
